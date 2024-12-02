@@ -1,10 +1,17 @@
 body {
-    background-color: yellow;
+    background:  url(/assets/bsbackg.jpg) 
 }
+
+lilita-one-regular {
+    font-family: : "Lilita One" , serif;
+    font-weight: 400;
+    font-style: normal;
+    }
 
 h1 {
     color: black
     margin-left: 20px;
+    font: 1em "Lilita-One";
  }
-
  
+.
