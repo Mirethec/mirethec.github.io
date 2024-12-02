@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Lilita;
+    src: url(/brawl-tips/LilitaOne-Regular.ttf);
+}
+
+
 body {
     background:  url(/assets/bsbackg.jpg) 
 }
@@ -11,7 +17,7 @@ lilita-one-regular {
 h1 {
     color: black
     margin-left: 20px;
-    font: 1em "Lilita-One";
+    font-family: "Lilita";
  }
  
 .
