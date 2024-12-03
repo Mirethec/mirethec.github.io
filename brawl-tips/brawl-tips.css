@@ -1,11 +1,11 @@
 body {
     background:  url(/assets/bsbackg.jpg) 
-}
+ }
 
-@font-face {
+ @font-face {
     font-family: "Lilita";
     src: url(/brawl-tips/LilitaOne-Regular.ttf);
-}
+ }
 
 h1 {
     color: black
