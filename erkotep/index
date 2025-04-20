@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <title>Mirethec's tech place</title>
+</head>
+<body>
+  <nav>
+  <a href="#">About</a> |
+  <a href="#">Home</a> |
+  <a href="#">Ing-brawl Facts</a> |
+  <a href= "brawl-tips/brawl-tips.html">Brawl Tips</a> 
+  <a href="tech.html"> Tech</a> |
+  <a href="sitec.html"> Screen Time App</a> 
+  </a>
+  </nav>
+  <h2 style="text-align: left;">
+    Požičovňa tepovačov
+  </h2>
+  <h3>Bytča a okolie
+
+    Prenájom profesionálnych tepovačov KARCHER</h3>
+    Špecializujeme sa na prénajom profesionálnych tepovacích strojov<br>
+     KARCHER PUZZI 10/1. Pomocou ktorých dokážete vytepovať  koberce, 
+     čalúnené materiály a všetky textilné povrchy<br>
+
+    Používaná chémia KARCHER RM 760, zabezpečuje ten najlepší možný <br>
+    výsledok s ohľadom na druh materiálu. Okrem špecializovaného čistenia <br>
+    kobercov ponúkame všetky ostatné upratovacie služby (umývanie okien, pravidelné <br>
+    upratovanie, jednorazové upratovanie atď.).<br>
+  <a href="https://www.facebook.com/p/Tepova%C4%8D-Byt%C4%8Da-Erkotep-100069882603527/?locale=sk_SK">
+  <img src="assets/image2.png" width="50" height="50">
+  <img src= "assets/image3.png" width="150"height="150">
+</body>
+</html>
