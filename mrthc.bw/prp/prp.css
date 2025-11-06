@@ -1,0 +1,22 @@
+/* ...existing code... */
+.game-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+.game-nav li { margin: 0; }
+.game-nav a { display: block; }
+.game-nav img {
+  display: block;
+  width: 50px; /* adjust size */
+  height: auto;
+  border-radius: 6px;
+  transition: transform 0.2s;}
+
+/* simple site nav */
+.site-nav { list-style: none; padding: 0; margin: 0; display: flex; gap: 12px; }
+.site-nav a { text-decoration: none; color: inherit; }
+/* ...existing code... */
