@@ -1,5 +1,12 @@
 /* ...existing code... */
-
+.mrthc-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
 /* Product grid */
 .products { padding: 1rem; max-width: 1100px; margin: 0 auto; }
 .products-header { text-align: center; margin-bottom: 1rem; }
