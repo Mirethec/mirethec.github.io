@@ -10,11 +10,11 @@
   align-items: start;
 }
 .product-card {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
+  background: #a1a1a1;
+  border: 2px solid #a1a1a1;
+  border-radius: 15px;
   overflow: hidden;
-  display: flex;
+  display: grid;
   flex-direction: column;
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
