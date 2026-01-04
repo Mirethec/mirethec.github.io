@@ -38,13 +38,13 @@
 .product-meta { display:flex; justify-content:space-between; align-items:center; gap:0.5rem; }
 .price { font-weight:700; color:#111; }
 .btn {
+  font-family: horizon, sans-serif;
   background:#007acc;
   color:#fff;
   text-decoration:none;
-  padding:.4rem .6rem;
-  border-radius:6px;
-  font-size:.9rem;
-  white-space:nowrap;
+  padding:.2rem .5rem;
+  border-radius: 5px;
+  font-size:.8rem;
 }
 .btn:hover{ background:#005ea6; }
 
@@ -62,9 +62,8 @@
   background-size: contain;
   background-color: #b8b8b8;
   }
-  .lndp
-{
-  font-family:sas, sans-serif;
+  .lndp {
+  font-family: "sauce", sans-serif;
   font-size: 1rem;
   margin-top: 5vh;
   color: #333;
@@ -76,7 +75,11 @@
   src: url('/assets/bebas.ttf'); 
 }
 @font-face {
-  font-family: sas;
+  font-family: "horizon";
+  src: url('/assets/h.otf');
+}
+@font-face {
+  font-family: sauce;
   src: url('/assets/sas.ttf'); 
 }
   .bebas-neue-book {
@@ -87,7 +90,6 @@
 .landing-title {
   font-family: "bebas", sans-serif;
   font-size: 4rem;
-  font-style: inherit;
 
   color: #222;
   text-align: center;
