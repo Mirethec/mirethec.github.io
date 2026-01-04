@@ -54,4 +54,38 @@
   .product-body { padding:0.6rem; }
 }
 
+.landingpage {
+  background-image: url('/assets/mrthclogo.jpg');
+  height: 75vh;
+  background-position: left 380px center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #b8b8b8;
+  }
+  .lndp
+{
+  font-size: 1rem;
+  margin-top: 5vh;
+  color: #333;
+  max-width: 400px;
+  text-align: justify;
+}
+@font-face {
+  font-family: bebas; /* set name */
+  src: url('/assets/bebas.ttf'); /* url of the font */
+}
+  .bebas-neue-book {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-style: book;
+}
+.landing-title {
+  font-family: "bebas", sans-serif;
+  font-size: 4rem;
+  font-style: inherit;
+
+  color: #222;
+  text-align: center;
+  margin-top: 5vh;
+}
 /* ...existing code... */
