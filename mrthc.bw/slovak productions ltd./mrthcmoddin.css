@@ -7,7 +7,6 @@ html, body {
 }
 .landingpage {
   background-image: url('/assets/mrthclogo.jpg');
-  height: 500px;
   width: 100%;
   background-position: left 380px center;
   background-repeat: no-repeat;
@@ -84,7 +83,6 @@ html, body {
   .lndp {
   font-family: "sauce", sans-serif;
   font-size: 1rem;
-  margin-top: 5vh;
   color: #333;
   max-width: 400px;
   text-align: justify;
@@ -112,7 +110,8 @@ html, body {
 }
 .landing-title {
   font-family: "bebas", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
+  margin: 2px;
 
   color: #222;
  text-align: center;
