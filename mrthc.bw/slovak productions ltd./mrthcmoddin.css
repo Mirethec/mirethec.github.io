@@ -15,14 +15,22 @@ html, body {
   display: flex;}
   .btnn {
   font-family: tele, sans-serif;
-
-  background:#007acc;
+  background:#1c9cf1;
   background-width: 700px;
   text-decoration:none;
-  padding:.2rem .5rem;
+  padding: .2rem .5rem;
   border-radius: 5px;
   font-size: 25px;
-    color:#fff;}
+  color:#fff;
+}
+.landing-title {
+  font-family: "bebas", sans-serif;
+  font-size: 5rem;
+  margin: 2px;
+
+  color: #222;
+ text-align: center;
+}
 }
 .landing-card {
   background: #f9f9f9;
@@ -33,6 +41,53 @@ html, body {
   transition: box-shadow 0.3s ease
   grid spacing: 1rem;
 }
+.lndp {
+  font-family: "sauce", sans-serif;
+  font-size: 1rem;
+  color: #333;
+  max-width: 400px;
+  text-align: justify;
+  margin-bottom: 7vh;
+  margin-left: 1rem;
+}
+.horizontal-scroll {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-behavior: smooth; /* Optional for smooth scrolling */
+  gap: 16px; /* Space between items */
+}
+
+/* Hide scrollbar while allowing horizontal scrolling */
+.horizontal-scroll {
+  scrollbar-width: none; /* For Firefox */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+.new {
+  flex: 0 0 auto; /* Prevent shrinking and ensure items stay in a row */
+  text-align: center;
+  width: 200px; /* Adjust width as needed */
+}
+
+.newimg {
+  width: 100%; /* Make the image fit the container */ /* Maintain aspect ratio */
+  margin: 0;
+}
+
+.newtitle {
+  font-size: 1.2em;
+  font-family: sauce, sans-serif;
+  background-image: url(likvid.jpg);
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+  background-position: 30px bottom;
+  display: ruby-text-container;
+}
+
 /* Product grid */
 .products { padding: 1rem; max-width: 1100px; margin: 0 auto; }
 .products-header { text-align: center; margin-bottom: 1rem; }
@@ -72,6 +127,7 @@ html, body {
   font-size:.8rem;
 }
 .btn:hover{ background:#005ea6; }
+.btnn:hover{ background:#005ea6; }
 
 /* small-screen adjustments */
 @media (max-width:420px){
@@ -80,13 +136,7 @@ html, body {
 }
 
 
-  .lndp {
-  font-family: "sauce", sans-serif;
-  font-size: 1rem;
-  color: #333;
-  max-width: 400px;
-  text-align: justify;
-}
+  
 @font-face {
   font-family: bebas; 
   src: url('/assets/bebas.ttf'); 
@@ -108,12 +158,5 @@ html, body {
   font-weight: 300;
   font-style: book;
 }
-.landing-title {
-  font-family: "bebas", sans-serif;
-  font-size: 5rem;
-  margin: 2px;
 
-  color: #222;
- text-align: center;
-}
 /* ...existing code... */
