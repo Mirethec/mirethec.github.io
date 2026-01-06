@@ -1,4 +1,30 @@
-/* ...existing code... */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #ececec; {
+}
+.landingpage {
+  background-image: url('/assets/mrthclogo.jpg');
+  height: 500px;
+  width: 100%;
+  background-position: left 380px center;
+  background-repeat: no-repeat;
+  background-size: ;
+  background-color: #b8b8b8;
+  display: flex;}
+  .btnn {
+  font-family: tele, sans-serif;
+
+  background:#007acc;
+  background-width: 700px;
+  text-decoration:none;
+  padding:.2rem .5rem;
+  border-radius: 5px;
+  font-size: 25px;
+    color:#fff;}
+}
 .landing-card {
   background: #f9f9f9;
   border: 1px solid #ddd;
@@ -54,14 +80,7 @@
   .product-body { padding:0.6rem; }
 }
 
-.landingpage {
-  background-image: url('/assets/mrthclogo.jpg');
-  height: 75vh;
-  background-position: left 380px center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #b8b8b8;
-  }
+
   .lndp {
   font-family: "sauce", sans-serif;
   font-size: 1rem;
@@ -75,7 +94,11 @@
   src: url('/assets/bebas.ttf'); 
 }
 @font-face {
-  font-family: "horizon";
+  font-family: tele;
+  src: url('/assets/tele.otf'); 
+}
+@font-face {
+  font-family: horizon;
   src: url('/assets/h.otf');
 }
 @font-face {
@@ -92,7 +115,6 @@
   font-size: 4rem;
 
   color: #222;
-  text-align: center;
-  margin-top: 5vh;
+ text-align: center;
 }
 /* ...existing code... */
