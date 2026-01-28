@@ -23,6 +23,7 @@ html, body {
   font-size: 25px;
   color:#fff;
 }
+
 .landing-title {
   font-family: "bebas", sans-serif;
   font-size: 5rem;
@@ -31,6 +32,7 @@ html, body {
   color: #222;
  text-align: center;
 }
+
 }
 .landing-card {
   background: #f9f9f9;
@@ -68,7 +70,7 @@ html, body {
 }
 
 .new {
-  flex: 0 0 auto; /* Prevent shrinking and ensure items stay in a row */
+  flex: 00 00 auto; /* Prevent shrinking and ensure items stay in a row */
   text-align: center;
   width: 200px; /* Adjust width as needed */
 }
@@ -82,7 +84,6 @@ html, body {
   font-size: 1.2em;
   font-family: sauce, sans-serif;
   background-image: url(likvid.jpg);
-  background-repeat: no-repeat;
   background-size: 150% auto;
   background-position: 30px bottom;
   display: ruby-text-container;
