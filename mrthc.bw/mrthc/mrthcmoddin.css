@@ -59,7 +59,11 @@ html, body {
   scroll-behavior: smooth; /* Optional for smooth scrolling */
   gap: 16px; /* Space between items */
 }
-
+.modded {
+  width: 200px;
+  height: 200px;
+  
+}
 /* Hide scrollbar while allowing horizontal scrolling */
 .horizontal-scroll {
   scrollbar-width: none; /* For Firefox */
